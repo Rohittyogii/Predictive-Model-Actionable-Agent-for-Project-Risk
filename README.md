@@ -17,30 +17,13 @@ This project is a smart HR analytics tool that uses Machine Learning and a Langu
 
 - **Frontend**: Streamlit
 - **ML Model**: Scikit-learn (Random Forest / XGBoost / etc.)
-- **LLM API**: Open-source model (e.g., Qwen/Q&A endpoint)
+- **LLM API**: Open-source model (qwen/qwen3-8b form LM Studio)
 - **Explainability**: SHAP
 - **Email Service**: SMTP + Gmail
 - **Others**: Pandas, NumPy, Matplotlib
 
 ---
 
-## 📁 Project Structure
-
-.
-├── Streamlit.py           # Streamlit UI code (Frontend & LLM integration)
-├── generate_models.py     # Python script to train the ML model and save artifacts
-├── best_model.pkl         # Trained machine learning model
-├── encoder.pkl            # OneHotEncoder used during training
-├── shap_values.npy        # SHAP values used to interpret model predictions
-├── example_data.csv       # Sample employee dataset for testing
-├── README.md              # Project documentation (this file)
-├── requirements.txt       # List of required Python packages
-├── agent_flow.png         # Agent flow diagram (optional)
-└── screenshots/           # Folder with UI and result screenshots (optional)
-
-
-
----
 
 ## ▶️ How to Run Locally
 
