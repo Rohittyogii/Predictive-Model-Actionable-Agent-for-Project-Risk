@@ -8,7 +8,6 @@ This project is a smart HR analytics tool that uses Machine Learning and a Langu
 - 📈 **SHAP Explainability**: Shows top features influencing each prediction using SHAP values.
 - 💡 **LLM Agent**: Suggests HR actions for at-risk employees based on key contributing factors.
 - 📩 **HR Email Notifications**: Instantly notify HR via email for any high-risk cases.
-- 📊 **Department-wise Visualization**: See attrition risk by department.
 - 📁 **CSV Upload & Download**: Upload employee data and download at-risk reports.
 
 ---
