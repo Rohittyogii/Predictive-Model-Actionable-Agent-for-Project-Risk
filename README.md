@@ -55,8 +55,8 @@ streamlit run Streamlit.py
 Once the app launches in your browser:
 
 1. Upload an employee CSV file (example_data.csv structure).
-
-2.Click "Analyze Attrition Risk" to predict and generate recommendations.
+   
+2. Click "Analyze Attrition Risk" to predict and generate recommendations.
 
 3. Optionally, notify HR with just one click via email.
 
