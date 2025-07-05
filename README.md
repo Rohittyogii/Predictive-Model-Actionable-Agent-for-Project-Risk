@@ -60,13 +60,17 @@ Once the app launches in your browser:
 
 3. Optionally, notify HR with just one click via email.
 
-📌 Use Case & Impact
+## 📌 Use Case & Impact
+
 In large organizations, predicting employee churn in advance is essential. This project:
 
-✅ Identifies at-risk employees using data
-✅ Explains why they are at risk using SHAP
-✅ Provides HR intervention plans via LLM
-✅ Notifies the HR team instantly by email
+✅ **Identifies** at-risk employees using data  
+✅ **Explains** why they are at risk using SHAP  
+✅ **Recommends** HR interventions via LLM  
+✅ **Notifies** HR team instantly via email  
+
+> 💼 This enables **proactive retention strategies**, reduces hiring costs, and supports healthier workforce planning.
+
 
 
 📬 Contact
