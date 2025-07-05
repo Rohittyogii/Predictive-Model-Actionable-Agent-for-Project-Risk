@@ -1,45 +1,76 @@
 # 🧠 HR Attrition Risk Predictor + LLM Agent
 
-This project is a smart HR analytics tool that uses Machine Learning and a Language Model Agent (LLM) to **predict employee attrition risk** and provide **actionable HR recommendations**.
+This project is a smart Human Resource analytics system that integrates **Machine Learning (ML)** and a **Large Language Model (LLM)** to proactively predict employee attrition and provide **actionable HR recommendations**. It helps HR professionals retain key employees by combining data science and AI reasoning.
 
-## 🚀 Features
+---
 
-- 🔍 **Attrition Prediction**: Predict whether an employee is at risk of leaving using ML classification models.
-- 📈 **SHAP Explainability**: Shows top features influencing each prediction using SHAP values.
-- 💡 **LLM Agent**: Suggests HR actions for at-risk employees based on key contributing factors.
-- 📩 **HR Email Notifications**: Instantly notify HR via email for any high-risk cases.
-- 📁 **CSV Upload & Download**: Upload employee data and download at-risk reports.
+## 🚀 Key Features
+
+- 🔍 **Attrition Prediction**  
+  Uses machine learning classification models to predict whether an employee is likely to leave.
+
+- 📊 **SHAP Explainability**  
+  Visualizes which features contributed most to each prediction for transparency.
+
+- 💡 **LLM-Powered Recommendations**  
+  Connects to a local LLM (Qwen 3B via LM Studio) to suggest HR interventions for at-risk employees.
+
+- 📩 **HR Email Notifications**  
+  Automatically sends an email to HR for high-risk cases with insights and suggestions.
+
+- 📁 **CSV Upload & Filtering**  
+  Upload structured employee data and filter by department to view focused results.
+
+- ⬇️ **Downloadable Reports**  
+  Export a CSV of all at-risk employees along with LLM recommendations and risk probability.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: Streamlit
-- **ML Model**: Scikit-learn (Random Forest / XGBoost / etc.)
-- **LLM API**: Open-source model (qwen/qwen3-8b form LM Studio)
-- **Explainability**: SHAP
-- **Email Service**: SMTP + Gmail
-- **Others**: Pandas, NumPy, Matplotlib
+| Layer         | Tools/Frameworks                                |
+|---------------|--------------------------------------------------|
+| **Frontend**  | Streamlit                                        |
+| **ML Model**  | Scikit-learn (Random Forest / XGBoost)           |
+| **LLM Agent** | Qwen3B via LM Studio (Local API)                 |
+| **Explainability** | SHAP                                  |
+| **Email Alerts** | SMTP + Gmail API                        |
+| **Data Tools** | Pandas, NumPy, Matplotlib, Joblib              |
 
 ---
 
-
-## ▶️ How to Run Locally
-
-1. **Clone the repository**  
-   ```bash
-   git clone (https://github.com/Rohittyogii/Predictive-Model-Actionable-Agent-for-Project-Risk)
-   cd Predictive-Model-Actionable-Agent-for-Project-Risk
-
-Install dependencies
+▶️How to Run Locally
 bash
 Copy
 Edit
+# 1. Clone the Repository
+git clone https://github.com/Rohittyogii/Predictive-Model-Actionable-Agent-for-Project-Risk
+cd Predictive-Model-Actionable-Agent-for-Project-Risk
+
+# 2. Install Dependencies
 pip install -r requirements.txt
-Run Streamlit app
 
-bash
-Copy
-Edit
+# 3. Start the Streamlit App
 streamlit run Streamlit.py
-Upload a CSV file with employee details to get predictions and recommendations.
+Once the app launches in your browser:
+
+1. Upload an employee CSV file (example_data.csv structure).
+
+2.Click "Analyze Attrition Risk" to predict and generate recommendations.
+
+3. Optionally, notify HR with just one click via email.
+
+📌 Use Case & Impact
+In large organizations, predicting employee churn in advance is essential. This project:
+
+✅ Identifies at-risk employees using data
+✅ Explains why they are at risk using SHAP
+✅ Provides HR intervention plans via LLM
+✅ Notifies the HR team instantly by email
+
+
+📬 Contact
+Project by: Rohit Kumar
+📧 Email: roxhiit4@gmail.com
+🔗 GitHub: github.com/Rohittyogii
+
