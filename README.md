@@ -30,13 +30,14 @@ This project is a smart HR analytics tool that uses Machine Learning and a Langu
 ├── Streamlit.py           # Streamlit UI code (Frontend & LLM integration)
 ├── generate_models.py     # Python script to train the ML model and save artifacts
 ├── best_model.pkl         # Trained machine learning model
-├── encoder.pkl            # OneHotEncoder or other encoder used during training
+├── encoder.pkl            # OneHotEncoder used during training
 ├── shap_values.npy        # SHAP values used to interpret model predictions
 ├── example_data.csv       # Sample employee dataset for testing
 ├── README.md              # Project documentation (this file)
 ├── requirements.txt       # List of required Python packages
 ├── agent_flow.png         # Agent flow diagram (optional)
 └── screenshots/           # Folder with UI and result screenshots (optional)
+
 
 
 ---
